@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/Users/Jaymar/Desktop/smu class activitities/week 4/reset.css">
+    <link rel="stylesheet" type="text/css" href="/Users/Jaymar/Desktop/smu class activitities/week 4/style.css">
+
+    
+
+</head>
+
+<body>
+<audio controls loop>
+    <source src="<audio controls loop>" type="audio/caf" />
+</audio>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="head">Hangman Game</h1>
+            <p>Name That Color!!</p>
+    </div>
+
+    <div class="alert alert-info" role="alert">
+        <div class="panel-heading">
+            <h3 class="panel-title">Word to Guess</h3>
+        </div>
+        <div class="panel-body">
+            <h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
+        </div>
+    </div>
+     
+    <div class="alert alert-warning" role="alert">
+        <div class="panel-body">
+            No Good Guesses: <span id="badGuesses"></span>
+        </div>
+    </div>
+    
+    <div class="alert alert-danger" role="alert">
+        <div class="panel-body">
+            Guesses Remaining: <span id="numGuesses"></span>
+        </div>
+    </div>
+    
+    <div class="alert alert-warning" role="alert">
+        <div class="panel-body">
+            Win Total: <span id="winTotal">0</span>
+        </div>
+    </div>
+    
+    <div class="alert alert-warning" role="alert"> 
+        <div class="panel-body">
+            Loss Total:  <span id="lossTotal">0</span>
+        </div>
+    </div>
+    
+</div>
+<div id="pageFooter">Jay Martinez 2017</div>
+<script type="text/javascript" src="/Users/Jaymar/Desktop/smu class activitities/week 4/game.js"></script>
+</body>
+</html>

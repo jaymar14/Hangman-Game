@@ -1,0 +1,39 @@
+.jumbotron {
+    background-color:transparent !important; 
+    text-align: center;
+    font-color: white !important;
+    padding: 30px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2;
+    color: white;
+    background-color: transparent;
+}
+
+body{
+    animation: colorchange 30s;
+    -webkit-animation: colorchange 30s;
+    animation-iteration-count: infinite;
+      
+}
+@keyframes colorchange {
+      0%   {background: red;}
+      25%  {background: orange;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: purple;}
+}
+@-webkit-keyframes colorchange {
+     
+      0%   {background: red;} 
+      25%  {background: orange;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: purple;}
+}
+
+#pageFooter{
+    text-align: center;
+    font-color:black;
+}
