@@ -1,7 +1,7 @@
 # Hangman-Game
-In this assignment, you'll create one of two possible computer games: Hangman or Psychic. These apps will run in the browser, and feature dynamically updated HTML powered by your JavaScript code.
+In this assignment, you'll create a Hangman computer game. This app will run in the browser, and feature dynamically updated HTML powered by your JavaScript code.
 
-Choose a theme for your game! In the demo, we picked an 80s theme: 80s questions, 80s sound and an 80s aesthetic. You can choose any subject for your theme, though, so be creative!
+Choose a theme for your game! You can choose any subject for your theme, though, so be creative!
 Use key events to listen for the letters that your players will type.
 Display the following on the page:
 Press any key to get started!
